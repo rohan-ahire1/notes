@@ -8,9 +8,7 @@ The screenshot uses made-up sample files.
 
 ## What's in this repo
 
-This repo holds the Node server (`server/server.mjs`) and the built web app (`dist/`). It does not hold the frontend source.
-
-The frontend started as [pdf-shelf](https://github.com/rohan-ahire1/pdf-shelf), but that repo is an earlier version that reads from Google Drive. The current frontend, which talks to this server, isn't published yet, so `dist/` is the only copy of it here.
+This repo holds what runs on the server: the Node server (`server/server.mjs`) and the built web app (`dist/`). The frontend source is in [pdf-shelf](https://github.com/rohan-ahire1/pdf-shelf).
 
 ## What the app does
 
