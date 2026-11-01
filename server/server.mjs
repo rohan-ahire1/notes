@@ -1,7 +1,7 @@
 // Notes server: serves the web app and the files in NOTES_DIR.
 // Files are plain files on disk (drop them in with scp and they show up).
 // Stars, tags, type and importance live in NOTES_DIR/.shelf.json, keyed by relative path.
-// No auth here: Caddy only lets tailnet devices through.
+// No auth here: Caddy in front of this server handles login.
 
 import { createReadStream, createWriteStream } from 'node:fs';
 import { mkdir, readFile, readdir, rename, stat, unlink, writeFile } from 'node:fs/promises';
